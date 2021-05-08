@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagosQR.Recargar">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="RECARGAR" HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+            </Frame>
+
+            <Entry x:Name="txtNumeroTarjet" Placeholder="Ingrese el Numero de la Tarjeta"/>
+            <Entry x:Name="txtMes" Placeholder="Ingrese el Mes"/>
+            <Entry x:Name="txtAño" Placeholder="Ingrese el Año"/>
+            <Entry x:Name="txtCodSeg" Placeholder="Ingrese el Codigo de Seguridad"/>
+            <Entry x:Name="txtCiudad" Placeholder="Ingrese su Ciudad"/>
+            <Entry x:Name="txtCodPostal" Placeholder="Ingrese el Codigo Postal"/>
+
+            <Button x:Name="btnRecargarSaldo" Text="Recargar" Clicked="btnRecargarSaldo_Clicked"/>
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

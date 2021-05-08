@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagosQR.CrearCuenta">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="CREAR CUENTA" HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+            </Frame>
+
+            <Entry x:Name="txtNombres" Placeholder="Ingrese los Nombres"/>
+            <Entry x:Name="txtApellidos" Placeholder="Ingrese los Apellidos"/>
+            <Entry x:Name="txtCelular" Placeholder="Ingrese el Celular"/>
+            <Entry x:Name="txtCorreo" Placeholder="Ingrese el Correo"/>
+            <Entry x:Name="txtPass" Placeholder="Ingrese la Clave" IsPassword="True"/>
+
+            <Button x:Name="btnGuardarRegistro" Text="Registarse" Clicked="btnGuardarRegistro_Clicked"/>
+            
+            
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

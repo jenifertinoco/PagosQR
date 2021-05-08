@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PagosQR.Login">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="LOGIN" HorizontalTextAlignment="Center" TextColor="White" FontSize="16"/>
+            </Frame>
+
+            <Entry x:Name="txtUser" Placeholder="Ingrese el Correo"/>
+            <Entry x:Name="txtPass" Placeholder="Ingrese la Clave" IsPassword="True"/>
+
+            <Button x:Name="btnIngreso" Text="Login" Clicked="btnIngreso_Clicked"/>
+
+            <Label Text="¿No tienes cuenta? Registrame" HorizontalTextAlignment="Center" TextColor="White" FontSize="13"/>
+
+            <Button x:Name="btnGoogle" Text="Google" Clicked="btnGoogle_Clicked"/>
+            <Button x:Name="btnFacebook" Text="Facebook"  Clicked="btnFacebook_Clicked"/>
+            <Button x:Name="btnRegistrarme" Text="Registrarme" Clicked="btnRegistarme_Clicked"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
